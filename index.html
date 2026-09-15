@@ -117,6 +117,59 @@
     font-size: 0.9rem;
     border-top: 1px solid #e2e8f0;
   }
+  .guarantee {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 22px;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 10px;
+    font-size: 0.95rem;
+    max-width: 480px;
+  }
+  .guarantee strong {
+    display: block;
+    margin-bottom: 4px;
+  }
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  .testimonial-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .testimonial-card p.quote {
+    font-style: italic;
+    color: var(--text);
+    margin-top: 0;
+  }
+  .testimonial-card p.author {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  .faq-item {
+    background: white;
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    margin-bottom: 16px;
+  }
+  .faq-item h3 {
+    margin: 0 0 8px;
+    font-size: 1.05rem;
+    color: var(--primary-dark);
+  }
+  .faq-item p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
 </style>
 </head>
 <body>
@@ -134,6 +187,10 @@
     <a class="buy-btn" href="https://buy.stripe.com/9B6aEW2NEdVuaH00Yh1kA02" target="_blank" rel="noopener">
       Buy Now — $19
     </a>
+    <div class="guarantee">
+      <strong>30-Day Money-Back Guarantee</strong>
+      Not satisfied? Email us within 30 days for a full refund, no questions asked.
+    </div>
   </div>
 </header>
 
@@ -169,6 +226,52 @@
       into Notion, Google Docs, Word, or your favorite editor and customize them to fit
       your brand and workflow in minutes.
     </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>What Customers Are Saying</h2>
+    <div class="testimonials">
+      <div class="testimonial-card">
+        <p class="quote">"This saved me hours of back-and-forth with new clients."</p>
+        <p class="author">— Freelance Web Designer</p>
+      </div>
+      <div class="testimonial-card">
+        <p class="quote">"Finally, an onboarding process that makes me look organized from the first email."</p>
+        <p class="author">— Freelance Copywriter</p>
+      </div>
+      <div class="testimonial-card">
+        <p class="quote">"The proposal and invoice templates alone were worth the price."</p>
+        <p class="author">— Freelance Consultant</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:white;">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What's included in the kit?</h3>
+      <p>The Client Onboarding Checklist, a Project Proposal Template, an Invoice Template, and a Client Intake Questionnaire — four files designed to work together from first contact to kickoff.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What file formats do I get?</h3>
+      <p>Everything is delivered as plain, editable Markdown and CSV files — no proprietary software required. Open them in Notion, Google Docs, Word, or any text editor.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How does delivery work?</h3>
+      <p>After checkout you'll get instant access to a download link — no waiting, no shipping. The files are yours to keep forever.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What's your refund policy?</h3>
+      <p>We offer a 30-day money-back guarantee. If you're not happy with the kit, just email us within 30 days for a full refund, no questions asked.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can I customize the templates?</h3>
+      <p>Yes. Every file is plain Markdown/CSV, so you can freely edit wording, branding, and formatting to match your own business.</p>
+    </div>
   </div>
 </section>
 
