@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spitfire1337.github.io/freelancer-onboarding-kit-store/sitemap.xml
